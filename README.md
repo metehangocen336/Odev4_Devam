@@ -2,7 +2,7 @@ Bu proje, farklı büyük dil modelleri ,Gemma,Gpt5-nano,LLMA (LLM) ile yapılan
 Amaç, aynı veri setini farklı LLM’lere göndererek sonuçları karşılaştırmak, kullanılan promptları saklamak ve çıktıların doğruluğunu gözlemlemekti.
 
 Genel Süreç
-Her denemede konuşmaların tamamı doğrudan modele yollandı.
+Her denemede konuşmaların etiketlenen ve kullanım limitlerini aşmayacak kadar olan kısmı doğrudan modele yollandı.
 
 Modellerden gelen cevaplar, istenilen formatta olmasa bile kaydedildi.
 
