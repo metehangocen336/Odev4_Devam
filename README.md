@@ -17,13 +17,11 @@ llmoutputs/denemeler/
 Bu klasör, yapılan tüm LLM denemelerinin kayıtlarını içerir.
 Her model için şu dosyalar bulunur:
 
-*.json → Modelden gelen ham çıktı.
+*.csv → Modelden gelen ham çıktı.
 
 prompt.txt → Denemede kullanılan prompt.
 
-output.png → Model cevabının ekran görüntüsü (başarısız veya eksik olsa bile).
-
-Her model birden fazla kez test edildi, dolayısıyla aynı model için birden çok alt klasör olabilir.
+Her model birden fazla kez test edildi,
 
 kontrol/
 Bu klasör, LLM’e gönderilecek verilerin kontrol edildiği yer.
@@ -33,7 +31,7 @@ Buradaki dosyalar, modele gidecek içeriklerin son halini gösterir.
 Amaç, yanlış veya eksik veri göndermemek için bir ara kontrol noktası oluşturmaktı.
 
 Denemeler Hakkında Notlar
-Farklı LLM sürümleriyle çalışıldı (ör. GPT-5 nano, GPT-4, başka alternatif modeller).
+Farklı LLM sürümleriyle çalışıldı (ör. GPT-5 nano, başka alternatif modeller).
 
 Her model, aynı veri setiyle birden fazla kez çalıştırıldı.
 
@@ -63,6 +61,8 @@ Farklı Deneme Sonuçlarının Tutarsızlığı
 Aynı model, aynı veri setinde farklı çıktılar verebildi.
 
 Bunun sebebi modelin deterministik olmaması veya prompt değişiklikleri olabilir.
+
+output.png → Model cevabının ekran görüntüsü (başarısız veya eksik olsa bile) paylaşıldı.
 
 Sonuç
 Bu proje, LLM’lerle yapılan çoklu denemelerin hem teknik hem de pratik açıdan kayıt altına alındığı bir çalışma.
