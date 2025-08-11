@@ -1,0 +1,36 @@
+Türkçe olarak verilen kullanıcı-bot konuşmalarını incele. Konuşmada, kullanıcıdan sonra gelen ilk mesaj bot tarafından gönderilmişse "Evet", değilse "Hayır" olarak yanıt ver. Sadece tek kelime cevap ver:  
+Konuşmalar: "{mesaj}"
+***
+Aşağıdaki kullanıcı ve bot görüşmelerini analiz et. Her kullanıcı mesajından sonra bot cevap verip vermediğini kontrol et. Eğer kullanıcı mesajından sonra bot hemen yanıt verdiyse "Evet", vermediyse "Hayır" yaz. Yalnızca "Evet" ya da "Hayır" yaz:  
+Konuşmalar: "{mesaj}"
+***
+Türkçe müşteri-bot diyaloglarını değerlendir. Konuşma içinde kullanıcı mesajından sonra botun ilk mesajı varsa cevaplandı olarak "Evet", yoksa "Hayır" yaz. Sadece tek kelime cevap ver:  
+Konuşmalar: "{mesaj}"
+***
+Kullanıcı ve bot arasında geçen tüm konuşmaları incele. Kullanıcı mesajından sonra bot hemen cevap verdiyse "Evet", yoksa "Hayır" olarak işaretle. Yanıt yalnızca "Evet" ya da "Hayır" olsun:  
+Konuşmalar: "{mesaj}"
+***
+Aşağıdaki Türkçe müşteri ile bot arasındaki görüşmeleri analiz et. Kullanıcıdan sonra botun cevap verip vermediğini kontrol et; varsa "Evet", yoksa "Hayır" yaz. Cevap sadece tek kelime olsun:  
+Konuşmalar: "{mesaj}"
+***
+Seninle Türkçe konuşuyorum. Verilen kullanıcı-bot mesajlarını incele ve kullanıcı mesajlarından sonra botun yanıtlayıp yanıtlamadığını belirle. İlk bot cevabı varsa "Evet", yoksa "Hayır" yaz. Tek kelime cevap:  
+Konuşmalar: "{mesaj}"
+***
+Kullanıcı-bot diyaloglarını analiz et. Her kullanıcı mesajını takiben botun cevap verip vermediğini kontrol et. Eğer kullanıcı mesajından sonra bot hemen cevap verdiyse "Evet", vermediyse "Hayır" olarak yanıtla. Yalnızca "Evet" ya da "Hayır" yaz:  
+Konuşmalar: "{mesaj}"
+***
+Aşağıdaki müşteri ve bot görüşmelerini inceleyerek, kullanıcıdan sonra botun hemen cevap verip vermediğini belirle. Bot cevap verdiyse "Evet", vermediyse "Hayır" olarak yanıtla. Cevap sadece "Evet" ya da "Hayır" olsun:  
+Konuşmalar: "{mesaj}"
+***
+Türkçe müşteri-bot konuşmalarını değerlendir. Kullanıcı mesajından sonra botun yanıtı varsa "Evet", yoksa "Hayır" olarak belirt. Sadece tek kelime cevap ver:  
+Konuşmalar: "{mesaj}"
+***
+Verilen Türkçe müşteri ve bot yazışmalarını incele. Kullanıcı mesajlarından sonra botun cevap verip vermediğini kontrol et. İlk bot cevabı varsa "Evet", yoksa "Hayır" yaz. Yanıt yalnızca tek kelime:  
+Konuşmalar: "{mesaj}"
+***
+Seninle Türkçe konuşuyorum. Aşağıdaki bütün müşteri bot konuşmalarını analiz et ama analiz sonuçlarını yazmana gerek yok ve gelen konuşmalarda botun userın sorularını yanıtlayıp yanıtlamadığını kontrol et konuşma boyunca userdan sonraki ilk gönderici botsa cevaplandı kabul edebilrisin:
+
+Konuşmalar: "{mesaj}"
+
+Cevap formatı: [Evet / Hayır]
+sadece evet hayir olarak tek bir cevap ver.

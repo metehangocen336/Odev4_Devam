@@ -1,0 +1,140 @@
+Seninle Türkçe konuşuyorum. Aşağıdaki kullanıcı ve bot mesajını bir düğün organizasyon uzmanı gibi incele. Konuşmada geçen ve açıkça belirtilen ilgili konuları, aşağıdaki kategorilere göre liste halinde yaz:
+
+Mesaj: "{mesaj}"
+
+Konular:  
+1. Etkinlik türü (düğün, nişan, kına, sünnet, doğum günü vb.)  
+2. Hizmet türü (organizasyon, fotoğrafçı, müzik, catering vb.)  
+3. Mekan ve lokasyon (il, semt, açık/kapalı alan, otel, villa vb.)  
+4. Tarih ve zaman (gün, ay, hafta sonu vb.)  
+5. Bütçe ve kapasite (fiyat, kişi sayısı, ekonomik vb.)  
+6. İkram ve menü (yemekli, kokteyl, pasta vb.)  
+
+Yalnızca mesajda geçen ve net olarak belirtilen konuları listele, ek bilgi veya yorum yapma: konu=[konu listesi]
+***
+Türkçe yazılmış kullanıcı-bot sohbetini incele. Mesajlarda geçen düğün ve organizasyonla ilgili konuları, aşağıdaki ana başlıklara göre belirle ve liste halinde ver:
+
+Mesaj: "{mesaj}"
+
+Konu Başlıkları:  
+- Etkinlik türü  
+- Organizasyon ve hizmetler  
+- Mekan ve yerleşim  
+- Tarih ve zamanlama  
+- Bütçe ve davetli sayısı  
+- İkram ve menü seçenekleri  
+
+Mesajda geçen ve net olan konuları sadece listele, başka şey ekleme: konu=[liste]
+***
+Bir düğün analizi uzmanı olarak, aşağıdaki kullanıcı ile bot arasında geçen konuşmayı oku. Konuşmada açıkça geçen ve ilgili olan konuları aşağıdaki kategorilerle uyumlu şekilde listele:
+
+Mesaj: "{mesaj}"
+
+Konular: düğün, kına, nişan, organizasyon, fotoğrafçı, mekan, tarih, bütçe, ikram vb.
+
+Sadece mesajda açıkça geçen konuları yaz, fazladan yorumlama: konu=[konu listesi]
+***
+Türkçe bir kullanıcı ve bot görüşmesini analiz et. Mesajlarda geçen düğün ile ilgili konuları, aşağıdaki başlıklar doğrultusunda çıkar:
+
+1) Etkinlik türleri  
+2) Hizmet çeşitleri  
+3) Mekan detayları  
+4) Tarih ve zamanlama  
+5) Bütçe ve kapasite  
+6) Menü ve ikram  
+
+Yalnızca mesajda net belirtilen konuları listele, yorum yapma: konu=[liste]
+***
+Aşağıdaki sohbet metninde, düğün organizasyonu ile ilgili kullanıcı tarafından belirtilen konuları analiz et. Konuları aşağıdaki kategorilere göre belirt:
+
+- Etkinlik türü  
+- Organizasyon hizmetleri  
+- Mekan ve lokasyon  
+- Tarih ve zaman  
+- Bütçe ve davetli sayısı  
+- İkram ve yemek  
+
+Sadece konuşmada net geçen konuları listele, başka ekleme yapma: konu=[konu listesi]
+***
+Seninle Türkçe konuşuyorum. Aşağıdaki kullanıcı-bot mesajındaki düğünle ilgili konuları, aşağıdaki kategoriler çerçevesinde çıkar ve liste halinde yaz:
+
+Mesaj: "{mesaj}"
+
+Konu kategorileri:  
+- Etkinlik türü (düğün, nişan, kına, sünnet vb.)  
+- Hizmet (fotoğrafçı, müzik, catering vb.)  
+- Mekan (açık, kapalı, otel, villa vb.)  
+- Tarih (gün, ay, hafta sonu vb.)  
+- Bütçe ve kapasite  
+- İkram ve menü  
+
+Sadece net geçen konuları listele, yorumlama yapma: konu=[liste]
+***
+Türkçe kullanıcı-bot görüşmesini oku. Düğün organizasyonu ile ilgili konuşulan net konuları aşağıdaki listeye göre çıkar:
+
+1) Etkinlik türleri  
+2) Hizmet ve organizasyon  
+3) Mekan ve lokasyon  
+4) Tarih ve zamanlama  
+5) Bütçe ve kapasite  
+6) İkram ve menü  
+
+Yalnızca mesajda belirtilen konuları yaz, fazladan yorumlama yapma: konu=[liste]
+***
+Aşağıdaki kullanıcı ve bot arasındaki Türkçe konuşmayı bir düğün analisti gibi değerlendir. Mesajda geçen ve net olarak belirtilen konuları aşağıdaki başlıklara göre listele:
+
+- Düğün türü  
+- Hizmet türleri  
+- Mekan ve çevre  
+- Tarih ve zaman  
+- Bütçe ve kişi sayısı  
+- Menü ve ikram  
+
+Yalnızca net geçen konuları listele, başka bir şey ekleme: konu=[liste]
+***
+Türkçe kullanıcı ile bot arasında geçen görüşmeyi oku. Konuşmada açıkça belirtilen düğün ile ilgili konuları aşağıdaki kategorilere göre çıkar ve listele:
+
+Etkinlik türü, hizmetler, mekan, tarih, bütçe, ikram  
+
+Sadece mesajda geçen ve net olan konuları yaz, başka ekleme yapma: konu=[liste]
+***
+Seninle Türkçe konuşuyorum. Aşağıdaki kullanıcı-bot sohbetindeki düğün konularını, aşağıdaki sınıflandırmaya göre çıkar ve listele:
+
+1. Etkinlik (düğün, nişan, kına vb.)  
+2. Organizasyon ve hizmetler (fotoğraf, müzik, catering vb.)  
+3. Mekan (açık, kapalı, otel, villa vb.)  
+4. Tarih ve zaman (gün, ay, hafta sonu vb.)  
+5. Bütçe ve kapasite  
+6. Menü ve ikram  
+
+Sadece mesajda net geçen konuları listele, yorum yapma: konu=[liste]
+***
+Seninle Türkçe konuşuyorum. Aşağıdaki user ve bot  görüşmesi mesajını bir düğün analizi uzmanı gibi analiz et analiz sonucunu yazmana gerek yok mesj boyunca konusulan ilgili konuları liste olarak ver:
+
+Mesaj: "{mesaj}"
+
+Konu: . Etkinlik Türüyle İlgili Kelimeler
+(düğün, düğün salonu, düğün mekanı, kır düğünü, havuz başı düğün, otel düğünü
+kına, kına gecesi, kına organizasyonu, kına mekanı
+nişan, nişan organizasyonu, nişan mekanı, söz
+sünnet, sünnet düğünü, sünnet organizasyonu
+doğum günü, baby shower, mezuniyet, parti, after party
+2. Hizmet Türüyle İlgili Kelimeler
+organizasyon, organizasyon firması, düğün organizasyonu, kına organizasyonu
+fotoğrafçı, düğün fotoğrafçısı, video, çekim, klip
+davetiye, nikah şekeri, gelin arabası, gelin buketi, gelinlik, damatlık, saç-makyaj
+orkestra, DJ, müzik grubu, catering, yemek, kokteyl, pasta
+balayı, balayı oteli, balayı villası
+3. Mekan ve Lokasyonla İlgili Kelimeler
+il, ilçe, semt adı (ör: İstanbul, Beylikdüzü, Kadıköy, İzmir, Ankara, Bursa)
+açık alan, kapalı alan, bahçe, salon, villa, tarihi mekan, sosyal tesis, otel, tekne, havuz başı
+yakın, çevre, komşu ilçeler
+4. Tarih ve Zamanla İlgili Kelimeler
+tarih, gün, hafta sonu, hafta içi, yaz, kış, ay ismi (ör: Haziran, Temmuz)
+5. Bütçe ve Kapasiteyle İlgili Kelimeler
+kişi başı, toplam bütçe, fiyat, ücret, uygun fiyatlı, lüks, ekonomik
+davetli sayısı, kapasite, küçük grup, kalabalık, az kişi, çok kişi
+6. İkram ve Menüyle İlgili Kelimeler
+yemekli, yemeksiz, kokteyl, pasta, meşrubat, açık büfe, içecek, ikram)
+
+Türkçe olarak bir konu listesi üret, sadece listele, ve mesajda net olarak beliritlen konuyu seç mesaj dışı konular ekleme, yorum yapma: konu=[konu listesi] gibi sadece liste

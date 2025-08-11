@@ -1,0 +1,31 @@
+Seninle Türkçe konuşuyorum. Aşağıda bir kullanıcı ve bot arasındaki sohbet var. Kullanıcının mesajlarındaki genel duygu durumunu, tüm konuşmayı göz önünde bulundurarak değerlendir. Her mesajı ayrı ayrı incele ama sonucu konuşmanın bütünü üzerinden belirle. Kullanıcının mesajlarında kesinlikle olumlu ifadeler ağır basıyorsa "Pozitif", belirgin olumsuzluklar varsa "Negatif", aksi halde "Nötr" etiketi ver. Sadece sentiment etiketini yaz, başka açıklama yapma:  
+Mesaj: "{mesaj}"
+***
+Türkçe dilinde yazılmış kullanıcı ve bot konuşmasını değerlendir. Kullanıcının ilettiği duygu ve hisleri, tüm diyalogu dikkate alarak analiz et. Kullanıcı mesajları genelinde belirgin pozitif bir tavır varsa "Pozitif", belirgin negatiflik varsa "Negatif", belirsiz veya karışıksa "Nötr" etiketini yaz. Yanıt sadece "sentiment=pozitif" ya da "sentiment=negatif" ya da "sentiment=nötr" şeklinde olsun:  
+Mesaj: "{mesaj}"
+***
+Kullanıcı ve bot arasında geçen Türkçe sohbet metnini oku. Kullanıcının tüm mesajlarının genel havasına göre bir duygu durumu belirle. Kullanıcı mesajlarında açıkça olumlu ifadeler varsa "Pozitif", olumsuzluklar ağırlıktaysa "Negatif", aksi halde "Nötr" olarak değerlendir. Sadece etiketi yaz, başka yorum yapma:  
+Mesaj: "{mesaj}"
+***
+Aşağıdaki kullanıcı-bot yazışmasında, kullanıcının genel duygu durumunu tüm konuşmayı göz önüne alarak çıkar. Mesajlar tek tek analiz edilip, sonunda genel pozitiflik, negatiflik veya nötrlük belirlenir. Kullanıcı mesajlarında kesin olumlu duygu varsa "Pozitif", kesin olumsuzluk varsa "Negatif", yoksa "Nötr" etiketi ver. Cevap sadece etiketi içersin:  
+Mesaj: "{mesaj}"
+***
+Türkçe yazılmış kullanıcı ile bot arasındaki metni analiz et. Kullanıcı mesajlarının genel duygusal tonunu belirle; tamamen olumluysa "Pozitif", tamamen olumsuzsa "Negatif", aksi halde "Nötr" olarak etiketle. Sonuçta sadece etiket şeklinde cevap ver:  
+Mesaj: "{mesaj}"
+***
+Kullanıcı ve bot arasındaki Türkçe sohbeti değerlendir. Kullanıcının genel duygu halini konuşmanın tamamını dikkate alarak belirle. Kullanıcı mesajlarında net olumlu içerik varsa "Pozitif", net olumsuz içerik varsa "Negatif", yoksa "Nötr" olarak işaretle. Sadece sentiment etiketini ver:  
+Mesaj: "{mesaj}"
+***
+Aşağıdaki konuşmada, kullanıcı mesajlarının tamamını analiz et. Genel duygu durumu pozitifse "Pozitif", negatifse "Negatif", belirgin değilse "Nötr" olarak etiketle. Yanıt sadece sentiment etiketi olsun, açıklama yapma:  
+Mesaj: "{mesaj}"
+***
+Türkçe kullanıcı ve bot diyalogunu incele. Kullanıcının konuşma boyunca ifade ettiği duygu durumunu net olarak pozitif, negatif ya da nötr olarak değerlendir. Mesajlar bütünüyle pozitifse "Pozitif", olumsuzsa "Negatif", aksi halde "Nötr" yaz. Yalnızca etiketi yaz, yorumlama yapma:  
+Mesaj: "{mesaj}"
+***
+Bir düğün analizi uzmanı gibi, aşağıdaki kullanıcı-bot sohbetini değerlendir. Kullanıcının genel duygu durumunu belirle; tamamen olumluysa "Pozitif", olumsuzsa "Negatif", diğer durumlarda "Nötr" etiketi ver. Sadece sonucu yaz, açıklama yapma:  
+Mesaj: "{mesaj}"
+***
+Türkçe konuşulan bu kullanıcı-bot görüşmesini değerlendir. Kullanıcının tüm mesajlarındaki duygu yoğunluğunu göz önünde bulundurarak, genel olarak pozitif, negatif ya da nötr etiketle. Mesajları tek tek analiz et, ama etiketi genel duyguya göre belirle. Yalnızca "sentiment=pozitif", "sentiment=negatif" ya da "sentiment=nötr" yaz:  
+Mesaj: "{mesaj}"
+***
+Seninle Türkçe konuşuyorum. Aşağıdaki user ve bot görüşmesini mesajda botun kullanıcıya yansıtmadığı düşünceleride var bir düğün analizi uzmanı gibi analiz et analiz sonucunu yazmana gerek yok ve userın konuşma mesajlarındaki sentimentine göre sentiment  etiketini ver sadece, sentiment: [Pozitif / Negatif / Nötr] Sentimenti Tek tek mesajlardan değilde konuşmanın geneline bakarak değerlendir ama her mesajı analiz et. Sentiment Etiket Üretme Mantığı: Göndericinin user olduğu mesajlarda tamamen olumlu kesin olarak pozitif anlam içeriyorsa pozitif etiketle,göndericininin user olduğu mesajlarda genel olarak net bir şekilde negatif durumlar varsa negatif etiketle,bunlar dışındakileri yani user bot konuşmaları genelinde net olarak pozitif değilse, net olarak negatif değilse nötr etiketle. Cevabı Türkçe oluştur:Sadece sentiment=pozitif, sentiment=negatif veya sentiment=nötr gibi analiz sonucunun yorumunu yapma:  Mesaj: "{mesaj}"
